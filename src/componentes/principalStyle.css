@@ -63,4 +63,15 @@ header {
   border-radius: 10px; /* Bordes redondeados (ajusta según tus preferencias) */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+/* Media Queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+  ul {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajusta el tamaño de las columnas para pantallas más pequeñas */
+  }
+}
+
+
+
+
+
 
